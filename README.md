@@ -165,13 +165,13 @@ El proyecto está conectado a GitHub (`Josue-Zapata-v/-my-portfolio`) y se despl
 
 ## Auditoría Lighthouse
 
-Resultado de la auditoría en modo **Desktop** (incógnito, sin extensiones):
+Auditoría final en producción (incógnito, sin extensiones):
 
-| Categoría | Score |
-|---|---|
-| Performance | 90 |
-| Accessibility | 91 |
-| Best Practices | 100 |
-| SEO | 100 |
+| Categoría | Desktop | Mobile |
+|---|---|---|
+| Performance | 100 | 98 |
+| Accessibility | 100 | 100 |
+| Best Practices | 100 | 100 |
+| SEO | 100 | 100 |
 
-> En **Mobile**, el throttling de CPU/red simula condiciones más exigentes; se recomienda volver a auditar en incógnito antes de optimizar, ya que extensiones de Chrome pueden distorsionar la métrica de Performance.
+Objetivo de la tarea (**Score > 90 en todas las categorías, Desktop y Mobile**) cumplido en ambos modos tras optimizar imágenes (`next/image` con AVIF/WebP, lazy loading), fuentes (`next/font`) y metadata.
