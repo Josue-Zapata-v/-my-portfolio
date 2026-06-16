@@ -38,7 +38,7 @@ export const personalInfo = {
   description: 'Desarrollador apasionado por crear experiencias web excepcionales',
   email: 'zjosue775@gmail.com',
   github: 'https://github.com/Josue-Zapata-v',
-  linkedin: 'https://linkedin.com/in/tuusuario',
+  linkedin: 'https://www.linkedin.com/in/josu%C3%A9-zapata-3392072ba',
   siteUrl: 'https://my-portfolio-josuezv.vercel.app',
   avatar: 'https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 };
